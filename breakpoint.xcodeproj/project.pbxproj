@@ -14,6 +14,7 @@
 		4300224A2022D54000E2B94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430022482022D54000E2B94D /* Main.storyboard */; };
 		4300224C2022D54000E2B94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4300224B2022D54000E2B94D /* Assets.xcassets */; };
 		4300224F2022D54000E2B94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4300224D2022D54000E2B94D /* LaunchScreen.storyboard */; };
+		4300225E2022DD9900E2B94D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300225D2022DD9900E2B94D /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4300224B2022D54000E2B94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4300224E2022D54000E2B94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430022502022D54000E2B94D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4300225D2022DD9900E2B94D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		A89AF324E74B1A3455CF8D9D /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		C9EFA1E7149F10A5AB808001 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 		4300225A2022D74800E2B94D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				4300225D2022DD9900E2B94D /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				430022472022D54000E2B94D /* SecondViewController.swift in Sources */,
 				430022432022D54000E2B94D /* AppDelegate.swift in Sources */,
 				430022452022D54000E2B94D /* FirstViewController.swift in Sources */,
+				4300225E2022DD9900E2B94D /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
