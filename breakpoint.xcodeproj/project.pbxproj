@@ -21,6 +21,7 @@
 		430022662023325200E2B94D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430022652023325200E2B94D /* GoogleService-Info.plist */; };
 		4300226A2023575F00E2B94D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430022692023575F00E2B94D /* ShadowView.swift */; };
 		43B5EF032026C84000BDCCAF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5EF022026C84000BDCCAF /* AuthService.swift */; };
+		43B5EF052028726700BDCCAF /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5EF042028726700BDCCAF /* MeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		430022652023325200E2B94D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		430022692023575F00E2B94D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
 		43B5EF022026C84000BDCCAF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		43B5EF042028726700BDCCAF /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		A89AF324E74B1A3455CF8D9D /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		C9EFA1E7149F10A5AB808001 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 				430022462022D54000E2B94D /* GroupsVC.swift */,
 				4300225F2022FB6900E2B94D /* AuthVC.swift */,
 				430022612022FB7600E2B94D /* LoginVC.swift */,
+				43B5EF042028726700BDCCAF /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B5EF052028726700BDCCAF /* MeVC.swift in Sources */,
 				430022602022FB6900E2B94D /* AuthVC.swift in Sources */,
 				430022472022D54000E2B94D /* GroupsVC.swift in Sources */,
 				430022622022FB7600E2B94D /* LoginVC.swift in Sources */,
