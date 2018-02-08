@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -234,13 +235,56 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="548"/>
                                 <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="zxv-bs-CUg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="zxv-bs-CUg" customClass="FeedCell" customModule="breakpoint" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zxv-bs-CUg" id="oVz-X5-c52">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="uVx-P9-rf8">
+                                                    <rect key="frame" x="25" y="21" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="TcA-ju-imk"/>
+                                                        <constraint firstAttribute="width" constant="50" id="jBW-fM-7ki"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="s5m-k9-JiW">
+                                                    <rect key="frame" x="85" y="21" width="265" height="58"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="user@breakpoint.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Uw-Wf-wSE">
+                                                            <rect key="frame" x="0.0" y="0.0" width="265" height="20"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20" id="90N-Vg-65w"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="O1k-GF-Ijo">
+                                                            <rect key="frame" x="0.0" y="25" width="265" height="33"/>
+                                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="12"/>
+                                                            <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="s5m-k9-JiW" secondAttribute="bottom" constant="10" id="49p-xn-N14"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="s5m-k9-JiW" secondAttribute="trailing" constant="10" id="BM2-o8-vXK"/>
+                                                <constraint firstItem="s5m-k9-JiW" firstAttribute="leading" secondItem="uVx-P9-rf8" secondAttribute="trailing" constant="10" id="J8b-BX-OCa"/>
+                                                <constraint firstItem="uVx-P9-rf8" firstAttribute="top" secondItem="oVz-X5-c52" secondAttribute="topMargin" constant="10" id="Pc4-Cx-k17"/>
+                                                <constraint firstItem="s5m-k9-JiW" firstAttribute="top" secondItem="oVz-X5-c52" secondAttribute="topMargin" constant="10" id="SOv-Dw-yHU"/>
+                                                <constraint firstItem="uVx-P9-rf8" firstAttribute="leading" secondItem="oVz-X5-c52" secondAttribute="leadingMargin" constant="10" id="uA3-PQ-rk1"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="contentLbl" destination="O1k-GF-Ijo" id="DSj-bG-GQ5"/>
+                                            <outlet property="emailLbl" destination="6Uw-Wf-wSE" id="dZF-bQ-Koa"/>
+                                            <outlet property="profileImg" destination="uVx-P9-rf8" id="91Z-Xd-XjJ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -261,7 +305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MXx-Eq-0vO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="670" y="-353"/>
+            <point key="canvasLocation" x="669.60000000000002" y="-353.07346326836586"/>
         </scene>
         <!--Create PostVC-->
         <scene sceneID="YsL-pY-AeT">
