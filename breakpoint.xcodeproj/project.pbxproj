@@ -20,12 +20,19 @@
 		43002264202300D400E2B94D /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43002263202300D400E2B94D /* InsetTextField.swift */; };
 		430022662023325200E2B94D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430022652023325200E2B94D /* GoogleService-Info.plist */; };
 		4300226A2023575F00E2B94D /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430022692023575F00E2B94D /* ShadowView.swift */; };
+		43354165206A64B3004B27A2 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43354164206A64B3004B27A2 /* UIViewControllerExt.swift */; };
 		4346EB92202B23FD00332F40 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346EB91202B23FD00332F40 /* CreatePostVC.swift */; };
 		4346EB94202B29DA00332F40 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346EB93202B29DA00332F40 /* UIViewExt.swift */; };
 		4346EB96202C0AF900332F40 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346EB95202C0AF900332F40 /* FeedCell.swift */; };
 		4346EB98202C0C7300332F40 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346EB97202C0C7300332F40 /* Message.swift */; };
+		4361D867206283B200713A56 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361D866206283B200713A56 /* GroupCell.swift */; };
+		438D87482067C5F700CF0634 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D87472067C5F700CF0634 /* Group.swift */; };
+		438D874A2067F20600CF0634 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D87492067F20600CF0634 /* GroupFeedCell.swift */; };
+		438D874C2067F27900CF0634 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438D874B2067F27900CF0634 /* GroupFeedVC.swift */; };
 		43B5EF032026C84000BDCCAF /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5EF022026C84000BDCCAF /* AuthService.swift */; };
 		43B5EF052028726700BDCCAF /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B5EF042028726700BDCCAF /* MeVC.swift */; };
+		43D8C2712032D9350010712C /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C2702032D9350010712C /* CreateGroupVC.swift */; };
+		43D8C2732032DF160010712C /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D8C2722032DF160010712C /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,12 +51,19 @@
 		43002263202300D400E2B94D /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		430022652023325200E2B94D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		430022692023575F00E2B94D /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		43354164206A64B3004B27A2 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		4346EB91202B23FD00332F40 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		4346EB93202B29DA00332F40 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		4346EB95202C0AF900332F40 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		4346EB97202C0C7300332F40 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4361D866206283B200713A56 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		438D87472067C5F700CF0634 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		438D87492067F20600CF0634 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		438D874B2067F27900CF0634 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		43B5EF022026C84000BDCCAF /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		43B5EF042028726700BDCCAF /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		43D8C2702032D9350010712C /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		43D8C2722032DF160010712C /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		A89AF324E74B1A3455CF8D9D /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		C9EFA1E7149F10A5AB808001 /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +125,8 @@
 				430022612022FB7600E2B94D /* LoginVC.swift */,
 				43B5EF042028726700BDCCAF /* MeVC.swift */,
 				4346EB91202B23FD00332F40 /* CreatePostVC.swift */,
+				43D8C2702032D9350010712C /* CreateGroupVC.swift */,
+				438D874B2067F27900CF0634 /* GroupFeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -119,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				4346EB97202C0C7300332F40 /* Message.swift */,
+				438D87472067C5F700CF0634 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,6 +146,9 @@
 				43002263202300D400E2B94D /* InsetTextField.swift */,
 				430022692023575F00E2B94D /* ShadowView.swift */,
 				4346EB95202C0AF900332F40 /* FeedCell.swift */,
+				43D8C2722032DF160010712C /* UserCell.swift */,
+				4361D866206283B200713A56 /* GroupCell.swift */,
+				438D87492067F20600CF0634 /* GroupFeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				4346EB93202B29DA00332F40 /* UIViewExt.swift */,
+				43354164206A64B3004B27A2 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -306,11 +327,18 @@
 				4346EB94202B29DA00332F40 /* UIViewExt.swift in Sources */,
 				4346EB96202C0AF900332F40 /* FeedCell.swift in Sources */,
 				43B5EF052028726700BDCCAF /* MeVC.swift in Sources */,
+				4361D867206283B200713A56 /* GroupCell.swift in Sources */,
 				430022602022FB6900E2B94D /* AuthVC.swift in Sources */,
+				43354165206A64B3004B27A2 /* UIViewControllerExt.swift in Sources */,
 				430022472022D54000E2B94D /* GroupsVC.swift in Sources */,
+				438D874C2067F27900CF0634 /* GroupFeedVC.swift in Sources */,
+				438D874A2067F20600CF0634 /* GroupFeedCell.swift in Sources */,
 				430022622022FB7600E2B94D /* LoginVC.swift in Sources */,
 				43B5EF032026C84000BDCCAF /* AuthService.swift in Sources */,
 				430022432022D54000E2B94D /* AppDelegate.swift in Sources */,
+				438D87482067C5F700CF0634 /* Group.swift in Sources */,
+				43D8C2732032DF160010712C /* UserCell.swift in Sources */,
+				43D8C2712032D9350010712C /* CreateGroupVC.swift in Sources */,
 				4300226A2023575F00E2B94D /* ShadowView.swift in Sources */,
 				4346EB92202B23FD00332F40 /* CreatePostVC.swift in Sources */,
 				430022452022D54000E2B94D /* FeedVC.swift in Sources */,
